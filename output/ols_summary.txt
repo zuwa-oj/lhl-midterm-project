@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Happiness Score   R-squared:                       0.764
+Model:                            OLS   Adj. R-squared:                  0.762
+Method:                 Least Squares   F-statistic:                     418.2
+Date:                Wed, 06 Sep 2023   Prob (F-statistic):          4.25e-239
+Time:                        23:14:08   Log-Likelihood:                -638.30
+No. Observations:                 782   AIC:                             1291.
+Df Residuals:                     775   BIC:                             1323.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               2.1775      0.080     27.282      0.000       2.021       2.334
+GDP per capita      1.1471      0.083     13.864      0.000       0.985       1.310
+Social support      0.6409      0.081      7.950      0.000       0.483       0.799
+Life Expectancy     1.0037      0.131      7.638      0.000       0.746       1.262
+Freedom             1.4793      0.163      9.054      0.000       1.159       1.800
+Trust               0.8527      0.223      3.819      0.000       0.414       1.291
+Generosity          0.5938      0.176      3.381      0.001       0.249       0.939
+==============================================================================
+Omnibus:                       16.296   Durbin-Watson:                   1.468
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.343
+Skew:                          -0.286   Prob(JB):                     0.000104
+Kurtosis:                       3.485   Cond. No.                         23.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
