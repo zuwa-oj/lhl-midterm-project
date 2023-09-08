@@ -17,4 +17,10 @@ Upload clean data to tableau for visualization purpose.
 
 ## Results
 
+- The multiple linear regression model suggests that the included independent variables all with p values < 0.05 collectively have a statistically significant influence on the Happiness Score.
+
+- Also, the Adj. R-squared indicating the goodness of fit of the model shows that around 76% of the variability in Happiness Score across countries can be explained by the independent variables.
+
 ## Challenges
+
+- Dataset acquired for years after 2019 did not contain Happiness Score so this analysis was only carried out on data from 2015 through 2019.
